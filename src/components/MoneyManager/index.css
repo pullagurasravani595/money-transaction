@@ -1,0 +1,127 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.main-container {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 100px;
+  width: 95%;
+  border-radius: 6px;
+}
+
+.heading {
+  color: #475569;
+  font-size: 24px;
+  padding-top: 40px;
+  padding-left: 15px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 12px;
+  color: #7e858e;
+  padding-left: 15px;
+  padding-bottom: 90px;
+}
+.span-element {
+  color: #0b69ff;
+}
+
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border: 1px solid #d7dfe9;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 36%;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.form-heading {
+  color: #1e293b;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label-element {
+  color: #7e858e;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.input-element {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  padding: 4px;
+  height: 34px;
+  width: 60%;
+  outline: none;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 4px;
+  border-width: 0px;
+  width: 50px;
+}
+
+.history-container {
+  background-color: #ffffff;
+  border: 1px solid #d7dfe9;
+  margin-left: 38px;
+  margin-right: 20px;
+  padding-left: 12px;
+  width: 60%;
+}
+
+.history-description-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d7dfe9;
+  margin-right: 205px;
+  margin-bottom: 12px;
+  padding: 8px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

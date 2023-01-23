@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid #d7dfe9;
+}
+
+.image {
+  width: 22px;
+  height: 22px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
